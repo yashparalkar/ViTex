@@ -1,6 +1,6 @@
 # ViTex: Vision-to-Text Image Captioning
 
-ViTex is a deep learning project that generates captions for images using a **ResNet + LSTM** architecture.  
+ViTex generates captions for images using a **ResNet + LSTM** architecture.  
 The model was trained on the [COCO Image Caption dataset](https://www.kaggle.com/datasets/nikhil7280/coco-image-caption) using a **Tesla P100 GPU on Kaggle Notebooks**.  
 This repository provides both the **training notebook** and an **interactive Streamlit interface** for generating captions.
 
@@ -11,6 +11,16 @@ This repository provides both the **training notebook** and an **interactive Str
 - 🧠 **Pretrained model** trained on the COCO dataset
 - 💻 **Streamlit interface** for uploading images and generating captions
 - 🛠️ Clear preprocessing scripts for reproducibility (`resize.py`, `build_vocab.py`)
+
+---
+
+## 📸 Screenshots
+
+Here are a few previews of **ViTex** in action:
+
+| | |
+|--------------|-------------------|
+| ![Screenshot 1](images/SS1.png) | ![Screenshot 2](images/SS2.png) |
 
 ---
 
@@ -37,7 +47,6 @@ git clone https://github.com/yashparalkar/ViTex.git
 cd ViTex
 pip install -r requirements.txt
 ```
-
 
 ---
 
